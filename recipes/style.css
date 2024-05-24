@@ -1,0 +1,33 @@
+#recipe {
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+img {
+    text-align: center;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+    font-size: medium
+}
+
+.section.title {
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.section.content {
+    font-family: Helvetica, sans-serif;
+    font-size: medium;
+}
+
+#button {
+    background-color: rgb(255, 205, 158);
+    color: rgb(68, 0, 0);
+}
+
+.source {
+    color: rgb(83, 52, 112);
+}

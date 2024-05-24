@@ -1,0 +1,17 @@
+#title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color: black;
+}
+
+ul {
+    color: rgb(0, 0, 0);    
+}
+
+a {
+    font-family: 'Lucida Handwriting', 'Brush Script MT', Helvetica, sans-serif;
+}
+img {
+    border-image: round;
+    color: black;
+}
