@@ -1,7 +1,9 @@
 #title {
+    margin-left: 39px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: xx-large;
-    color: rgb(194, 132, 179);
+    color: rgb(197, 98, 182);
+    
 }
 
 body {
@@ -10,16 +12,27 @@ body {
 }
 
 ul {
-        color: rgb(216, 216, 216);    
+         color: rgb(0, 0, 0);
+        -moz-column-count: 2;
+        -moz-column-gap: 10px;
+        -webkit-column-count: 2;
+        -webkit-column-gap: 10px;
+        column-count: 2;
+        column-gap: 10px;
+        column-rule: 500px;
+        
+        
 }
 
-a {
+.link {
     font-family: 'Lucida Handwriting', 'Brush Script MT', Helvetica, sans-serif;
+    padding: 6px;
+    background-color: rgb(201, 228, 189);
 }
-img {
-    border: 2px solid; color: rgb(224, 224, 224);
+.listimg {
+    border: 5px solid; color: rgb(92, 161, 60);
     border-image: round;
-    color: rgb(207, 207, 207);
+    color: rgb(201, 228, 189);
 }
 
 .gif {

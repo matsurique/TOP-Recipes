@@ -1,25 +1,35 @@
 #recipe {
-    font-size: xx-large;
+    margin-left: 39px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color: rgb(197, 98, 182);
     text-align: center;
 }
 
-img {
+body {
+    
+    background-color: rgb(0, 0, 0);
+}
+
+.img {
     text-align: center;
+    border: 5px solid; color: rgb(92, 161, 60);
+    border-image: round;
+    color: rgb(201, 228, 189);
 }
 
 p {
-    font-family: Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif; color: aliceblue;
     font-size: medium
 }
 
 .section.title {
-    font-size: x-large;
+    font-size: x-large; color: rgb(197, 98, 182);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .section.content {
-    font-family: Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif; color: aliceblue;
     font-size: medium;
 }
 
@@ -30,4 +40,6 @@ p {
 
 .source {
     color: rgb(83, 52, 112);
+    padding: 6px;
+    background-color: rgb(201, 228, 189);
 }
