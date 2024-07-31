@@ -1,7 +1,12 @@
 #title {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: xx-large;
-    color: black;
+    color: rgb(165, 125, 156);
+    stroke: black;
+}
+
+body {
+background-color: rgb(206, 233, 224);
 }
 
 ul {
