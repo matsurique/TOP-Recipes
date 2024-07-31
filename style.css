@@ -2,7 +2,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: xx-large;
     color: rgb(194, 132, 179);
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 1px solid;
     -webkit-text-stroke-color: rgb(29, 29, 29);
 }
 
@@ -12,14 +12,18 @@ body {
 }
 
 ul {
-    outline: 2px; color: rgb(29, 29, 29);
-    color: rgb(0, 0, 0);    
+        color: rgb(0, 0, 0);    
 }
 
 a {
     font-family: 'Lucida Handwriting', 'Brush Script MT', Helvetica, sans-serif;
 }
 img {
+    border: 2px solid;
     border-image: round;
     color: black;
+}
+
+.gif {
+    vertical-align: bottom;
 }
